@@ -193,10 +193,14 @@ h2 {
 }
 
 @media screen and (max-width: 949px) {
+  body {
+    padding: 0;
+  }
+
   main {
     flex-direction: column-reverse;
     gap: 39px;
-    max-width: 465px;
+    max-width: 349px;
     margin: 32px auto 95px auto;
   }
   h1 {
@@ -207,8 +211,69 @@ h2 {
   }
   .false-h1 {
     display: inline;
+    font-size: 24px;
   }
   .card {
     margin-top: 21px;
+    width: 349px;
+  }
+  .item-photo {
+    height: 124px;
+    width: 122px;
+  }
+
+
+  .name-item {
+    font-size: 12px;
+  }
+  .price {
+    font-size: 14px;
+    margin-bottom: 29px;
+  }
+  .rebajado {
+    font-size: 10px;
+  }
+  .cantidad-items {
+    height: 50px;
+    width: 123px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+
+  /* ----------------- */
+  .ship {
+    margin-top: 58px;
+  }
+  .input-title {
+    font-size: 10px;
+  }
+  .divs {
+    gap: 12.3px;
+    max-width: 349px;
+    height: 40.5px;
+    margin: 5.2px 0 16.5px;
+  }
+  .icon {
+    width: 15px;
+    margin-left: 14px;
+  }
+  .inputs {
+    font-size: 12px;
+  }
+  .inputs::placeholder {
+    font-size: 12px;
+  }
+  .shorts {
+    display: flex;
+    gap: 23px;
+  }
+  .short-divs {
+    gap: 12.3px;
+    max-width: 162px;
+    height: 40px;
+    margin: 5.2px 0 16.5px;
   }
 }
